@@ -1,0 +1,28 @@
+[{
+  "id": "1",
+  "menuName": "所有菜单",
+  "menuCode": "000",
+  "url": "",
+  "menuFlag": "1",
+  "childNodes": [
+    {
+      "id": "000",
+      "menuName": "接口列表",
+      "menuCode": "001",
+      "url": "",
+      "icon": " iconliepeizhi iconfont",
+      "menuFlag": "1",
+      "childNodes": []
+    },
+    {
+      "id": "016",
+      "menuName": "调用方",
+      "menuCode": "1000",
+      "menuFlag": "1",
+      "url": "",
+      "icon": " iconbumenxinxi iconfont",
+      "childNodes": []
+    }
+
+  ]
+}]

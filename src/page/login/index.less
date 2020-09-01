@@ -1,0 +1,280 @@
+/*登陆界面*/
+#login_container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  #output {
+    width: 100%;
+    height: 100%;
+    /*顶部logo*/
+    .log_logo {
+      height: 60px;
+      line-height: 60px;
+      font-size: 30px;
+      margin: 30px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: white;
+
+      img {
+        height: 60px;
+        margin-right: 10px;
+      }
+    }
+    /*表单模块*/
+    .containerT {
+      width: 350px;
+      height: auto;
+      text-align: center;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      // margin: -150px 0 0 -172px;
+      background: rgb(18, 130, 119);
+      border-radius: 10px;
+      .title {
+        line-height: 60px;
+        text-align: center;
+        font-size: 24px;
+        border-bottom: 1px solid #E0F2F1;
+        color: white;
+      }
+      .ivu-form {
+        display: block;
+        width : 100%;
+        margin: 30px 0;
+        .login_item {
+          text-align: left;
+          position: relative;
+          width: 320px;
+          margin: 0 auto 12px;
+
+          .ivu-input-wrapper {
+            width: 100%;
+            height: 42px;
+            input {
+              height: 42px;
+              line-height: 42px;
+              padding-left: 60px;
+              color: white;
+            }
+            .ivu-icon {
+              top: 5px;
+              color: #d2dcf3;
+            }
+          }
+          .ivu-form-item-error-tip {
+            top: 9px;
+            right: 0;
+          }
+          .loginIcon {
+            height: 26px;
+            width: 50px;
+            display: block;
+            border-right: 1px solid white;
+            position: absolute;
+            top: 8px;
+            left: 0;
+
+
+          }
+          .loginIcon.loginIcon1{
+            background: url(../../../static/images/login/login1.png) no-repeat center;
+            background-size: 20px auto;
+          }
+          .loginIcon.loginIcon2{
+            background: url(../../../static/images/login/login2.png) no-repeat center;
+            background-size: 24px auto;
+          }
+          .loginIcon.loginIcon3{
+            background: url(../../../static/images/login/login3.png) no-repeat center;
+            background-size: 20px auto;
+          }
+          #password_login_icon {
+            // left: 270px;
+            display: block;
+            cursor: pointer;
+            top: 9.5px;
+            right: 15px;
+            z-index: 99;
+            position: absolute;
+            width: 24px;
+            height: 25px;
+
+          }
+          #password_login_icon.loginIcon4{
+            background: url("../../../static/images/login/login4.png") no-repeat center;
+            background-size: 24px auto;
+          }
+          #password_login_icon.loginIcon5{
+            background: url("../../../static/images/login/login5.png") no-repeat center;
+            background-size: 24px auto;
+          }
+        }
+
+        .login_btn {
+          width: 100%;
+          text-align: center;
+          margin-bottom: 0;
+          button {
+            width: 320px;
+            height: 42px;
+            line-height: 42px;
+            letter-spacing: 7px;
+            text-indent: 7px;
+            font-size: 18px;
+            background: #009688;
+            color: white;
+            padding: 0;
+          }
+        }
+        .SMSverificationCode{
+          width: 320px;
+          margin: 0 auto;
+          .login_item{
+            width: 232px;
+            float: left;
+          }
+          .btnTxt{
+            width: 87px;
+            height: 42px;
+            position: relative;
+            left: -7px;
+            border-radius: 3px;
+            border: 1px solid #008DF1;
+            color: #008DF1;
+            font-size: 13px;
+            line-height: 42px;
+            cursor: pointer;
+          }
+          .btnTxt.btnDisabled{
+            background: #F8F8F8;
+            border: 1px solid #848283;
+            color: #848283;
+            cursor: no-drop;
+          }
+        }
+      }
+      .yzm{
+        .yzmIcon {
+          left: 4px;
+          width: 46px;
+        }
+        .ipt {
+          width: 231px;
+          margin-left: 15px;
+        }
+        .refresh {
+          font-size: 12px;
+          position: absolute;
+          bottom: 0;
+          right: 5px;
+          color: #333333;
+        }
+        .login_pass {
+          background-image: url("./../../../static/images/ver-img.jpg");
+          //background-image: src(require('~@/../static/images/ver-img.jpg'));
+          width: 100%;
+          position: relative;
+          left: -15px;
+          cursor: pointer;
+          .verification-bg {
+            width: 100%;
+            height: 42px;
+            text-align: center;
+            font-size: 22px;
+            color: #5e4d4d;
+            line-height: 42px;
+            font-style: italic;
+            letter-spacing: 4px;
+            /* color: #a5a5a5; */
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            user-select: none;
+            background: transparent;
+            position: relative;
+          }
+        }
+      }
+      .login_qh{
+        text-align: left;
+        color: white;
+        padding-left: 15px;
+        margin-bottom: 5px;
+        min-height: 13px;
+        span{
+          cursor: pointer;
+        }
+      }
+    }
+    /*底部*/
+    section {
+      display: block;
+      width: 100%;
+      text-align: center;
+      height: 40px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      p {
+        width: 80%;
+        height: 1px;
+        background: #24B0FF;
+        margin: 0 auto;
+      }
+      article {
+        display: inline-block;
+        vertical-align: middle;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+        color: #dcc9c9;
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+#login_container .ivu-spin-fix {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+.login-content {
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left: calc(50% - 200px);
+  .login-ipt {
+    width: 400px;
+    input {
+      color: #fff;
+      border-color: #dcdee2 !important;
+    }
+    input:hover {
+      border-color: #dcdee2 !important;
+    }
+    .ivu-input-search {
+      background-color: #3aaee2 !important;
+      border-color: #dcdee2 !important;
+    }
+  }
+
+}
+.remember-password {
+  width: 100%;
+  text-align: left;
+  margin: 0 0 6px 17px;
+  color: #fff;
+  .ivu-checkbox-checked .ivu-checkbox-inner {
+    border-color: #4caf50;
+    background-color: #4CAF50;
+  }
+}

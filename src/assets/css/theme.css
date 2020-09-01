@@ -1,0 +1,76 @@
+/*
+demoTheme(@pic1,@pic2,@pic3,@topBg,)
+@pic1: #787878;//主题颜色1-左侧，顶部背景色
+@pic2: #6b6767;//主题颜色2-左侧菜单选中背景颜色,card,modal,按钮背景色
+@topBg:""    //头部背景图片（默认为主题色背景）
+@leftBg:""   //左侧背景图片（默认为主题色背景）
+*/
+.theme .ivu-layout {
+  background: white;
+}
+.theme .ivu-layout-sider {
+  background: url(#fff) left top #008779 no-repeat;
+}
+.theme .ivu-layout-header {
+  background: url(#fff) left top #fff;
+}
+.theme .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  background: #fffdfd4a;
+}
+.theme .tags-nav .btn-con,
+.theme .tags-nav .close-con {
+  background: #37cdbf;
+}
+.theme .ivu-tag-primary.ivu-tag-dot .ivu-tag-dot-inner {
+  background: #009688;
+}
+.theme .header_right .header_user .ivu-select-dropdown {
+  background: #009688;
+}
+.theme .header_right .header_user .ivu-select-dropdown .ivu-dropdown-menu li:hover {
+  background: #009688;
+}
+.theme .ivu-card-head {
+  background: #009688;
+}
+.theme .ivu-modal-header {
+  background: #009688;
+}
+.theme .ivu-modal-footer .ivu-btn-text {
+  background: #009688;
+  border-color: #009688;
+}
+.theme .ivu-modal-footer .ivu-btn-text:hover {
+  background: #009688;
+}
+.theme .modal_txt1 {
+  color: #009688;
+}
+.theme .search_tree .search_home {
+  color: #009688;
+}
+.theme .verification-bg-btn {
+  color: #009688;
+}
+.theme .skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .title {
+  background: #009688;
+}
+.theme .skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation aside span:hover {
+  color: #009688;
+}
+.theme .ivu-tabs-nav .ivu-tabs-tab-active {
+  color: #009688;
+}
+.theme .ivu-tabs-ink-bar {
+  background: #009688;
+}
+.theme .ivu-menu .ivu-menu-item {
+  color: white;
+}
+.theme .ivu-btn-primary {
+  background-color: #009688;
+}
+.theme .ivu-btn-primary:hover {
+  background-color: #009688;
+}
+/*# sourceMappingURL=theme.css.map */

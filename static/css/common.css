@@ -1,0 +1,272 @@
+/* .menu_list .ivu-row .ivu-col-span-20 .tableCard,
+.org_list .ivu-row .ivu-col-span-20 .tableCard,
+.org_list .ivu-row .ivu-col-span-19 .tableCard {
+  margin-top: 5px;
+  height: calc(100% - 84px);
+} */
+.menu_list .ivu-row .ivu-col-span-20 .ivu-card-body,
+.org_list .ivu-row .ivu-col-span-20 .ivu-card-body {
+	height: calc(100% - 31px);
+}
+.menu_list .ivu-row .ivu-col-span-4 .tableCard .ivu-card-body,
+.org_list .ivu-row .ivu-col-span-4 .tableCard .ivu-card-body, 
+.skyDrive_list .ivu-row .ivu-col-span-4 .tableCard .ivu-card-body{
+  height: calc(100% - 33px);
+}
+.menu_list .ivu-row .ivu-col-span-20 .ivu-card-body .ivu-table-wrapper,
+.org_list .ivu-row .ivu-col-span-20 .ivu-card-body .ivu-table-wrapper,
+.org_list .ivu-row .ivu-col-span-19 .ivu-card-body .ivu-table-wrapper {
+  height: calc(100% - 32px);
+}
+.tableCard,
+.power_list .tableCard,
+.user_list .tableCard {
+  /* min-height: 459px; */
+  margin-top: 5px;
+  /*height: calc(100% - 76px);*/
+}
+
+/* .from_url .ivu-input-icon-validate{
+  display: none !important;
+} */
+
+
+
+.padding_btn{
+  letter-spacing: 8px;
+  text-indent: 8px;
+}
+.no_padding_btn{
+  letter-spacing: 0 !important;
+  text-indent: 0 !important;
+}
+.menu_list,
+.org_list {
+  height: 100%;
+}
+.menu_list .ivu-row,
+.org_list .ivu-row {
+  height: 100%;
+}
+.menu_list .ivu-row .ivu-col,
+.org_list .ivu-row .ivu-col {
+  height: 100%;
+}
+.menu_list .ivu-row .ivu-col-span-4 .tableCard,
+.org_list .ivu-row .ivu-col-span-4 .tableCard,.org_list .ivu-row .ivu-col-span-5 .tableCard {
+  margin-top: 5px;
+  height: 100%;
+  overflow: auto;
+}
+.menu_list .ivu-row .ivu-col-span-20 .tableCard,
+.org_list .ivu-row .ivu-col-span-20 .tableCard {
+  margin-top: 5px;
+}
+.menu_list .ivu-row .ivu-col-span-20 .ivu-card-body .ivu-table-wrapper,
+.org_list .ivu-row .ivu-col-span-20 .ivu-card-body .ivu-table-wrapper {
+  height: 100%;
+}
+.menu_list .ivu-table-row td:nth-child(5),
+.org_list .ivu-table-row td:nth-child(5) {
+  padding: 0 5px;
+}
+.user_list .tableCard + div {
+  display: none;
+}
+
+
+/*个人网盘  skyDrive_list*/
+.skyDrive_list {
+  height: 100%;
+}
+.skyDrive_list .ivu-row {
+  height: 100%;
+}
+.skyDrive_list .ivu-row .ivu-col-span-4 {
+  height: 100%;
+}
+.skyDrive_list .ivu-row .ivu-col-span-4 .tableCard {
+  height: 100%;
+}
+.skyDrive_list .ivu-row .ivu-col-span-4 .tableCard .remove {
+  padding-left: 16px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.skyDrive_list .ivu-row .ivu-col-span-4 .tableCard .remove i {
+  margin-right: 8px;
+  color: #1AA5DD;
+}
+.skyDrive_list .ivu-row .ivu-col-span-4 .tableCard .remove.add {
+  color: red;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 {
+  height: 100%;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard {
+  height: 100%;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .ivu-card-body {
+  padding: 0;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .title {
+  width: 100%;
+  height: 33px;
+  line-height: 33px;
+  background: #0081BA;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .title aside {
+  display: inline-block;
+  line-height: 33px;
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .title aside i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  color: white;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .title .NewFolder_box {
+  padding-left: 10px;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .title .NewFolder_box input {
+  width: 300px;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation {
+  width: 100%;
+  height: 38px;
+  border-bottom: 1px solid #797979;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation i.add {
+  color: #e0e0e0;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation aside {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 436px);
+  height: 38px;
+  line-height: 38px;
+  border-left: 1px solid #797979;
+  padding-left: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation aside span {
+  cursor: pointer;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation aside span b {
+  font-weight: 500;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation aside span:hover {
+  color: #0081BA;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation aside span:first-child b {
+  display: none;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation aside span:last-child:hover {
+  cursor: auto;
+  color: #333333;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation_search {
+  width: 300px;
+  position: absolute;
+  top: 35.5px;
+  right: 5px;
+  height: 24px;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .operation_search .ivu-input-icon-clear {
+  right: 54px;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .sky_table {
+  padding: 0 2px;
+  margin-top: 5px;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .sky_table .ivu-btn {
+  width: 36px;
+  text-align: center;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .sky_table .ivu-table-cell {
+  line-height: 30px;
+  width: 100%;
+  position: relative;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .sky_table .ivu-table-cell i {
+  display: inline-block;
+  vertical-align: top;
+}
+.skyDrive_list .ivu-row .ivu-col-span-20 .tableCard .sky_table .ivu-table-cell .text_name {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 20px);
+  overflow: hidden;
+  height: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 30px;
+}
+.skyDrive_list .upload_progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.skyDrive_list .upload_progress .ivu-chart-circle {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.skyDrive_list .upload_progress .demo-Circle-custom {
+  text-align: center;
+}
+.skyDrive_list .upload_progress .demo-Circle-custom h1 {
+  color: #3f414d;
+  font-size: 24px;
+  font-weight: normal;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  width: 84%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.skyDrive_list .upload_progress .demo-Circle-custom p {
+  color: #657180;
+  font-size: 14px;
+  margin: 10px 0 15px;
+}
+.skyDrive_list .upload_progress .demo-Circle-custom span {
+  display: block;
+  padding-top: 15px;
+  color: #657180;
+  font-size: 14px;
+}
+.skyDrive_list .upload_progress .demo-Circle-custom span i {
+  font-style: normal;
+  color: #3f414d;
+}
+.model_box .ivu-date-picker {
+  width: 100%;
+}
